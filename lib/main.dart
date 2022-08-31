@@ -1,4 +1,4 @@
-import 'package:counter_app/home_screen.dart';
+import 'package:counter_app/counter_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(colorSchemeSeed: const Color(0xff6750a4), useMaterial3: true),
-      home: const HomeScreen(),
+      home: const CounterScreen(),
     );
   }
 }
